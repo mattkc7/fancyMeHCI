@@ -12,7 +12,10 @@ html {
 
 body {
   padding-top: 120px;
-  background-image: image-url("fmh_bkg0.jpg"); 
+  background-image: image-url("fmh_bkg0.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center; 
 }
 
 section {
@@ -105,10 +108,10 @@ footer {
 /* Custom edits */
 
 .hero-unit {
-  -khtml-opacity:.80; 
- -moz-opacity:.80; 
- -ms-filter:”alpha(opacity=80)”;
-  filter:alpha(opacity=80);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.8);
-  opacity:.80;
+  -khtml-opacity:.85; 
+ -moz-opacity:.85; 
+ -ms-filter:”alpha(opacity=85)”;
+  filter:alpha(opacity=85);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
+  opacity:.85;
 }
