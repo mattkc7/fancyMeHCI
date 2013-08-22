@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: #777777;
 }
 
 p {
@@ -74,7 +74,7 @@ p {
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: white;
+    color: #FF00FF;
     text-decoration: none;
   }
 }
@@ -106,7 +106,7 @@ footer {
 }
 
 /* Custom edits */
-
+/*
 .hero-unit {
   -khtml-opacity:.85; 
  -moz-opacity:.85; 
@@ -114,4 +114,31 @@ footer {
   filter:alpha(opacity=85);
   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
   opacity:.85;
+} */
+
+.hero-unit {
+	background-color: transparent;
+	background-color: rgba(238, 238, 238, 0.8);
 }
+.mc_parent {
+	position:relative; height:200px;
+}
+.opaque-bkg {
+	position:absolute; width:940; height:335px; z-index:2;
+	-khtml-opacity:.85; 
+ 	-moz-opacity:.85; 
+	 -ms-filter:”alpha(opacity=85)”;
+	  filter:alpha(opacity=85);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
+	  opacity:.9;
+	background-color: rgba(238, 238, 238, 0.9);
+}
+
+.opaque-foreground {
+	position:absolute; width:940; height:335px; z-index:1;
+}
+
+.hci {
+	color: #FF00FF;
+}
+
