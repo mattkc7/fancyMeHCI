@@ -1,3 +1,3 @@
-# FancyMeHCI: Your One Stop Shop for Human-Computer Interaction
+# FancyMeHCI: Your Best Source for HCI
 
 By Matthew K. Chan and Dahlia Hegab
