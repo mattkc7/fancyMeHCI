@@ -1,0 +1,40 @@
+@import url('normalize.css');
+
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.container > header h2{
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #666;
+	font-family: Cambria, Georgia, serif;
+	font-style: italic;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+
+
+.main{
+	width: 930px;
+	height: 400px;
+	padding: 30px 0;
+	
+	position: relative;
+	overflow: hidden;
+	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
