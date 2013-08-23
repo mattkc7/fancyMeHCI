@@ -121,10 +121,10 @@ footer {
 	background-color: rgba(238, 238, 238, 0.8);
 }
 .mc_parent {
-	position:relative; height:350px;
+	position:relative; height:400px;
 }
 .opaque-bkg {
-	position:absolute; width:940; height:485px; z-index:2;
+	position:absolute; width:940; height:535px; z-index:2;
 	-khtml-opacity:.85; 
  	-moz-opacity:.85; 
 	 -ms-filter:”alpha(opacity=85)”;
@@ -135,7 +135,7 @@ footer {
 }
 
 .opaque-foreground {
-	position:absolute; width:940; height:455px; z-index:1;
+	position:absolute; width:940; height:535px; z-index:1;
 }
 
 .hci {
@@ -209,7 +209,7 @@ footer {
 	letter-spacing: 2px;
 	font-size: 24px;
 	margin: 0 15px;
-	padding: 60px 0 0 0;
+	padding: 70px 0 0 0;
 	height: 60px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow: 
