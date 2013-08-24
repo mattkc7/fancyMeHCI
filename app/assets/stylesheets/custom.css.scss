@@ -48,6 +48,8 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -125,10 +127,10 @@ footer {
 	background-color: rgba(238, 238, 238, 0.8);
 }
 .mc_parent {
-	position:relative; height:400px;
+	position:relative; height:450px;
 }
 .opaque-bkg {
-	position:absolute; width:940; height:535px; z-index:2;
+	position:absolute; width:940; height:585px; z-index:2;
 	-khtml-opacity:.85; 
  	-moz-opacity:.85; 
 	 -ms-filter:”alpha(opacity=85)”;
@@ -139,7 +141,7 @@ footer {
 }
 
 .opaque-foreground {
-	position:absolute; width:940; height:500px; z-index:1;
+	position:absolute; width:940; height:550px; z-index:1;
 }
 
 .hci {
@@ -159,6 +161,7 @@ footer {
 	-ms-perspective: 900px;
 	perspective: 900px;
 	margin: 0 auto;
+	padding-bottom: 10px;
 }
 .ch-info{
 	position: absolute;
@@ -356,7 +359,7 @@ footer {
 	height: 60px;
 	border: 5px solid #fff;
 	border-radius: 50%;
-	background: image-url("lewis.jpg") no-repeat center center;
+	background: image-url("larry.jpg") no-repeat center center;
 	position: absolute;
 	right: 10px;
 	bottom: 15px;
@@ -411,6 +414,7 @@ footer {
 	-o-perspective: 1000px;
 	-ms-perspective: 1000px;
 	perspective: 1000px;
+	margin-bottom: 50px;
 }
 
 .view .slice{
@@ -463,11 +467,13 @@ footer {
 	color: rgba(255,255,255,0.6);
 }
 
+/*
 .view-back span:first-child {
 	padding-top: 20px;
-}
+	font-size: 20px;
+} */
 
-.view-back a {
+#go-to-school {
 	display: block;
 	font-size: 18px;
 	color: rgba(255,255,255,0.4);
@@ -481,6 +487,24 @@ footer {
 	line-height: 22px;
 	text-align: center;
 	font-weight: 700;
+	text-decoration: none;
+}
+
+.view-back a {
+	color: rgba(135,206,250,0.8);
+/*	display: block;
+	font-size: 18px;
+	color: rgba(255,255,255,0.4);
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 700; */
 }
 
 .view-back a:hover {
@@ -520,7 +544,8 @@ footer {
 	background-position: -588px 0px;
 }
 .view .s5 {
-	background-position: -784px 0px;
+	background-position: -781px 0px;
+	background-repeat:no-repeat;
 }
 
 .view .overlay {
@@ -610,4 +635,15 @@ footer {
 	background: -o-linear-gradient(left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
 	background: -ms-linear-gradient(left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
 	background: linear-gradient(left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+}
+
+.list-of-orgs {
+	width: 196px;
+	height: 220px;
+	float: right;
+	padding-top: 20px;
+}
+
+#about-icon {
+    padding: 10px 0 10px 0;
 }
