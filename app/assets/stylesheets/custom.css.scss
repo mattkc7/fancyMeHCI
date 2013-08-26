@@ -148,6 +148,47 @@ footer {
 	position:absolute; width:940; height:550px; z-index:1;
 }
 
+/* Admissions background */
+.mc_parent_ad {
+	position:relative; height:410px; width: 100%;
+}
+
+.opaque-bkg_ad {
+	position:absolute; width:940; height:100%; z-index:2;
+	-khtml-opacity:.85; 
+ 	-moz-opacity:.85; 
+	 -ms-filter:”alpha(opacity=85)”;
+	  filter:alpha(opacity=85);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
+	  opacity:.9;
+	background-color: rgba(238, 238, 238, 0.9);
+}
+
+.opaque-foreground_ad {
+	position:absolute; width:940; height:100%; z-index:1;
+}
+
+/* Industry background */
+.mc_parent_ind {
+	position:relative; height:270px; width: 100%;
+}
+
+.opaque-bkg_ind {
+	position:absolute; width:940; height:100%; z-index:2;
+	-khtml-opacity:.85; 
+ 	-moz-opacity:.85; 
+	 -ms-filter:”alpha(opacity=85)”;
+	  filter:alpha(opacity=85);
+	  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.85);
+	  opacity:.9;
+	background-color: rgba(238, 238, 238, 0.9);
+}
+
+.opaque-foreground_ind {
+	position:absolute; width:940; height:100%; z-index:1;
+}
+
+
 .hci {
 	color: #FF00FF;
 }
@@ -679,6 +720,23 @@ footer {
 	float: right;
 	padding-top: 20px;
 	list-style: none;
+}
+
+.list-of-jobs {
+    columns: 2;
+  -webkit-columns: 2;
+  -mox-columns: 2;
+  color: #0088cc;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.list-of-places {
+    columns: 4;
+  -webkit-columns: 4;
+  -mox-columns: 4;
+  color: #0088cc;
+  font-size: 20px;
 }
 
 #about-icon {

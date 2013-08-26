@@ -1,26 +1,5 @@
-<div class="center hero-unit">
-	<div class="mc_parent">
-		<div class="opaque-bkg"></div>
-		<div class="opaque-foreground">
-			
-			<div class="mb-wrap mb-style-3">
-				<blockquote cite="http://www.gutenberg.org/ebooks/1260">
-					<p>It is far better to adapt the technology to the user than to force the user to adapt to the technology.</p>
-				</blockquote>
-				<div class="mb-attribution">
-					<p class="mb-author">Larry Marine</p>
-					<cite><a href="http://www.gutenberg.org/ebooks/1260">UX Strategy</a></cite>
-					<div class="mb-thumb"></div>
-				</div>
-			</div>
-			<h1 class="left-justified"> Fancy Me HCI</h1>
-			<p class="left-justified">Welcome to the hub of the best <span class="hci">Human-Computer Interaction</span> (HCI) resources! We showcase the best schools in the US that are doing amazing, life-changing research and projects! This is the place for those who want to pursue a path in HCI, but don't know what academic programs exist or their specialties!  </p>
-		</div> <!-- end of opaque-foreground -->
-	</div> <!-- end of mc_parent -->
-</div> <!-- end of center/hero-unit -->
 
-
-
+<div id="schools"></div>
 
 <div id="grid" class="main">
 	<h1>UC Berkeley</h1>
@@ -33,11 +12,12 @@
 				<ul class="list-of-orgs">
 					<li><a href="http://citris-uc.org/" target="_blank"> CITRIS</a></li>
 					<li><a href="http://vis.berkeley.edu" target="_blank"> Visualization Lab</a></li>
+					<li><a href="http://swarmlab.eecs.berkeley.edu/" target="_blank"> Swarm Lab</a></li>
 					<li><a href="http://bid.berkeley.edu" target="_blank"> Berkeley Inst. of Design</a></li>
 					<li><a href="http://www.ischool.berkeley.edu" target="_blank"> School of Information</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://berkeley.edu">&rarr;</a>
+			<a id="go-to-school" href="http://berkeley.edu" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("berkeley.jpg", alt: "UC Berkeley") %>
 	</div>
@@ -61,7 +41,7 @@
 					<li><a href="http://www.informatics.uci.edu/" target="_blank"> Informatics Dept.</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://hci.ics.uci.edu/">&rarr;</a>
+			<a id="go-to-school" href="http://hci.ics.uci.edu/" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("uci.jpg", alt: "UC Irvine") %>
 	</div>
@@ -77,7 +57,7 @@
 					<li><a href="http://vis.stanford.edu/" target="_blank"> Visualization Lab</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://stanford.edu">&rarr;</a>
+			<a id="go-to-school" href="http://stanford.edu" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("stanford.jpg", alt: "Stanford") %>
 	</div>
@@ -93,11 +73,11 @@
 						<li><a href="http://media.mit.edu/research/groups/opera-future" target="_blank"> Opera of the Future</a></li>
 						<li><a href="http://media.mit.edu/research/groups/social-computing" target="_blank"> Social Computing</a></li>
 						<li><a href="http://media.mit.edu/research/groups/tangible-media" target="_blank"> Tangible Media</a></li>
-						<li></li>
+						<li></br></li>
 						<li><a href="http://media.mit.edu/research/groups-projects" target="_blank"> more</a></li>
 					</ul>
 				</span>
-				<a id="go-to-school" href="http://media.mit.edu">&rarr;</a>
+				<a id="go-to-school" href="http://media.mit.edu" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("mit.jpg", alt: "MIT") %>
 	</div>
@@ -111,7 +91,7 @@
 					<li><a href="https://www.si.umich.edu/" target="_blank"> School of Information</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://www.si.umich.edu/">&rarr;</a>
+			<a id="go-to-school" href="http://www.si.umich.edu/" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("UMich.jpg", alt: "U Michigan") %>
 	</div>
@@ -125,7 +105,7 @@
 					<li><a href="http://www.hcii.cmu.edu/" target="_blank"> HCII</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://www.hcii.cmu.edu/">&rarr;</a>
+			<a id="go-to-school" href="http://www.hcii.cmu.edu/" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("CMU.jpg", alt: "CMU") %>
 	</div>
@@ -139,13 +119,18 @@
 					<li><a href="http://dub.washington.edu/" target="_blank"> DUB Center</a></li>
 				</ul>
 			</span>
-			<a id="go-to-school" href="http://dub.washington.edu/">&rarr;</a>
+			<a id="go-to-school" href="http://dub.washington.edu/" target="_blank">&rarr;</a>
 		</div>
 		<%= image_tag("UW.jpg", alt: "UW") %>
 	</div>
 	
 	
-	<h1 style="color:black;">MORE TO COME!</h1>
+	<h1 style="color:#0088cc;">MORE TO COME!</h1>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
 </div>
 
 
@@ -153,32 +138,3 @@
 
 
 
-<div class="center hero-unit" id="about-icon">
-    <p id="about">Brought to you by</p>
-    <ul class="ch-grid">
-		<li>
-			<div class="ch-item">               
-                <div class="ch-info">
-                    <div class="ch-info-front ch-img-1"></div>
-                    <div class="ch-info-back">
-                        <h3><a href="http://www.ics.uci.edu/~dhegab" target="_blank">Dahlia Hegab</a></h3>
-                    </div>  
-                </div>
-            </div>
-		</li>
-		<li>
-			<div class="ch-item">               
-                <div class="ch-info">
-                    <div class="ch-info-front ch-img-2"></div>
-                    <div class="ch-info-back">
-                        <h3><a href="https://twitter.com/MatterOfFact" target="_blank">Matthew Chan</a></h3>
-                    </div>  
-                </div>
-            </div>
-		</li>
-	</ul>
-
-
-    
-    
-</div>
