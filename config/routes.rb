@@ -1,6 +1,6 @@
 FancyMeHCI::Application.routes.draw do
   root to: 'static_pages#home'
-
+  match '/schools', to: 'static_pages#schools'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

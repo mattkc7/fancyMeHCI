@@ -14,26 +14,24 @@
 	<header class="navbar navbar-fixed-top navbar-inverse">
 		<div class="navbar-inner">
 			<div class="container">
-				<%= link_to "FancyMeHCI", '#', id: "logo" %>
+				<%= link_to "FancyMeHCI", root_path, id: "logo" %>
 				<nav>
 					<ul class="nav pull-right">
-					    <%#= link_to "Home", root_path %></li>
-						<li><%= link_to "Admissions", '#admissions' %></li>
-						<li><%= link_to "HCI Programs", '#schools' %></li>
-						<li><%= link_to "Industry", '#industry' %></li>
-						<li><%= link_to "About", '#about' %></li>
+					    <li><%= link_to "Home", root_path %></li>
+						<!-- <li><%= link_to "Admissions", '#admissions' %></li> -->
+						<li><%= link_to "HCI Programs", schools_path %></li>
+						<!-- <li><%= link_to "Industry", '#industry' %></li>
+						                      <li><%= link_to "About", '#about' %></li> -->
 					<ul>
 				</nav>
 			</div>
 		</div>
 	</header>
 	<div class="container">
-	    <%= render 'static_pages/intro' %>
-	    <%= render 'static_pages/admissions' %>
+	    
 		<%= yield %>
-		<%= render 'static_pages/industry' %>
-		<%= render 'static_pages/about' %>
-		<%= render 'layouts/footer' %>
+		
+		<%#= render 'layouts/footer' %>
 	</div>
 	<script type="text/javascript">	
 		// Modernizr.load({
